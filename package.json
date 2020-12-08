@@ -1,0 +1,29 @@
+{
+  "name": "learning_next.js",
+  "version": "1.0.0",
+  "description": "Learning the Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vr3n/learning_next.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vr3n/learning_next.js/issues"
+  },
+  "homepage": "https://github.com/Vr3n/learning_next.js#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "next": "^10.0.3",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
