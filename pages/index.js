@@ -1,21 +1,18 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
+import HeadTag from '../components/HeadTag';
 
 
 const index = () => {
     return (
-        <div>
-            <Head>
-                <title>Home Page</title>
-                <meta name="description" content="My SEO React app with Next Js" />
-                <meta name="keywords" content="Next react seo" />
-                <meta name="author" content="Viren Patel" />
-            </Head>
-            <Navbar />
+        <Layout>
+            <HeadTag title="Home Page" />
             <h2>Hello from Next JS</h2>
-        </div>
+        </Layout>
+
+    
     )
 }
 

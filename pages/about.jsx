@@ -1,13 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import HeadTag from '../components/HeadTag';
+import Layout from '../components/Layout';
+
 
 
 
 const about = () => {
     return (
-        <div>
-            <Navbar />
-
+        <Layout>
+            <HeadTag title="About Page" />
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam autem sapiente atque dolores consequuntur. Quod, in modi. Magnam, aliquam, sequi molestias perspiciatis laudantium numquam, at ratione voluptate accusamus quis veniam.</p>
 
             <style jsx>
@@ -23,7 +24,7 @@ const about = () => {
                 `}
             </style>
 
-        </div>
+        </Layout>
     )
 }
 
